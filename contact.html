@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping</title>
+    <link rel="icon" href="images/camp.png" type="image">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="features.html">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="blog.html">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid bgimg"> 
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">                   
+                    <button type="button" class="navbar-toggle icon" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a  class="navbar-brand logo" href="index.html">Camping</a> 
+                </div>
+                <div class="collapse navbar-collapse menu" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">More Info
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="features.html">Rules</a></li>
+                                <li><a href="blog.html">Camper</a></li>
+                            </ul>
+                        </li>                          
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>        
+        </div>
+        <div class="container">
+            <div class="row cntr" style="padding-bottom: 30px;">
+                <span>Contact Us</span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mid-text">
+        <div class="container">
+            <div class="row cntr">
+                <h3>We would love to hear from you</h3>
+                <p>Need to get in touch with our Team, we are all ears. Fill out the form and we will be in touch as soon as possible</p>                
+            </div>             
+        </div>
+    </div>
+    <div class="container-fluid grey">
+        <div class="width">
+            <form action="/action_page.php">
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+                    </div>
+                    <div class="form-group">
+                    <label for="pwd">Phone number</label>
+                    <input type="number" class="form-control" id="pwd" placeholder="Enter Phone No" name="phone number">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="subject" class="form-control" id="subject" placeholder="Subject" name="subject">
+                    </div>
+                </div>  
+                <div class="form-group">
+                    <label for="text">How can we help?</label>
+                    <textarea name="message" id="message" placeholder="Message" rows="5" style="width: 100%; resize: none;"></textarea>
+                </div>  
+                <button type="submit" class="btn btn-default">Submit</button>              
+            </form>
+        </div>       
+    </div>
+    <div class="container mid-text">
+        <div class="row">
+            <div class="col-md-4 footer">
+                <h3>Address</h3>
+                <p>Address : 1234 lock, Charlotte, North Carolina, United States</p>
+                <p>Phone : +12 534894364</p>
+                <p>Email : info@example.com</p>
+                <p>Fax : +12 534894364</p>
+            </div>
+            <div class="col-md-4 footer">
+                <h3>Quick Links</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="blog.html">Camper</a></p>
+                <p><a href="features.html">Rules</a></p>
+                <p><a href="#">Contact</a></p>
+            </div>
+            <div class="col-md-4 footer">
+                <h3>Newsletter</h3>
+                <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                <input type="text" class="form" placeholder="Email">
+            </div>
+        </div>
+        <div class="row rights">
+            <p>© 2020 Wander. All rights reserved | Design by <span>Aishwarya</span></p>
+        </div>
+    </div>
+</body>
+</html>

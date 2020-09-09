@@ -1,0 +1,352 @@
+@font-face {
+    src: url(fonts/aleo/Aleo/Aleo-Bold.otf);
+    font-family: Aleo;
+}
+@font-face {
+    src: url(fonts/dancing-script-ot/DancingScript-Regular.otf);
+    font-family: Dancing;
+}
+@font-face {
+    src: url(fonts/poppins/Poppins-Regular.otf);
+    font-family: poppins-black;
+}
+@font-face {
+    src: url(fonts/poppins/Poppins-Thin.otf);
+    font-family: poppins-thin;
+}
+@font-face {
+    src: url(fonts/shoelace-scrawl/ShoelaceScrawl-Regular.otf);
+    font-family: Shoelace;
+}
+@font-face {
+    src: url(fonts/Wavespurs/Wave\ Spurs.otf);
+    font-family: waves;
+}
+@font-face {
+    src: url(fonts/agent-red/AGENTRED.TTF);
+    font-family: agentred;
+}
+.bgimg {
+    background-image: url(images/magicbusbg.jpg) ;
+    padding-top: 10px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.logo {
+    font-size: 28px !important;
+    font-family: Aleo;
+    color: white !important;
+    text-decoration: none;
+}
+.logo:hover {
+    text-decoration: none;
+    color: white !important;
+}
+.menu {
+    color: white !important;
+    font-size: 13px;
+    font-family: poppins-black;
+}
+.menu a {
+    color: white !important;
+}
+.navbar-default{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar li a:hover {
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent !important;
+}
+.menu a:hover, .menu a:active {
+    color: #ef9632 !important;
+    background-color: transparent !important;
+}
+.dropdown-menu>li>a {
+    color: black !important;
+} 
+.navbar-default .navbar-nav>.open>a {
+    background-color: transparent !important;
+    color: #ef9632 !important;
+}
+
+.banner {
+    padding: 64px 0px;
+}
+.info {
+    margin-top: 64px;
+    padding: 0px 48px 0px 15px;
+}
+.info h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ef9632;
+    margin: 0px;
+    font-family: poppins-thin;
+}
+.info h3 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 44px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    font-family: poppins-black;
+}
+.info p {
+    color: rgb(231, 225, 225);
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+    font-family: poppins-thin;
+    font-weight: bold;
+}
+.info a {
+    background-color: #ef9632;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+    font-family: poppins-thin;
+}
+.info a:hover {
+    background-color: #ff3838;
+}
+.mid-text {
+    padding: 96px 0px;
+}
+.cntr {
+    text-align: center;
+}
+.cntr h3 {
+    font-family: Shoelace;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 0px 48px;
+    margin-bottom: 48px;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    color: rgb(235, 173, 93);
+}
+.my-3 {
+    margin: 48px 0px;
+}
+.cntr h4 {
+    font-family: poppins-black;
+    font-size: 24px;
+    margin: 24px 0px;
+    display: inline-block;
+    letter-spacing: 2px;
+    position: relative;
+}
+.cntr h4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    transform-origin: center center;
+    transition: transform 0.25s ease-out;
+}
+.cntr h4:hover::before {
+    transform: scaleX(1);
+}
+.mar {
+    margin: 24px 160px !important;
+}
+.cntr p {
+    font-family: Aleo;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 2;
+    color: #666;
+    padding: 16px;
+    display: inline-block;
+}
+.blue {
+    padding: 48px 0px;
+    background: #0f3285;
+}
+.blue i {
+    color: #ef9632;
+    font-size: 36px;
+    padding: 24px 0px;
+}
+.cntr h5 {
+    font-family: Aleo;
+    font-size: 32px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: white;
+}
+.blue p{
+    color: white !important;
+    font-size: 24px !important;
+}
+
+.pad {
+    padding: 32px !important;
+}
+.image {
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .8);
+}
+
+.property {
+    background: #0f3285;
+    padding: 20px 16px;
+}
+.property h4 {
+    color: white;
+    margin: 0px;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-family: poppins-black;
+}
+.property a {
+    color: #bbb5b5;
+    font-size: 12px;
+    text-decoration: none;
+}
+.property a:hover {
+    text-decoration: none;
+    color: #bbb5b5;
+}
+.tour {
+    margin-top: 8px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3d558e;
+}
+.property i {
+    color: #bbb5b5;
+    font-size: 12px;
+    padding-top: 18px;
+    display: inline-block;
+}
+.property h6 {
+    color: #bbb5b5;
+    font-size: 12px;
+    padding-top: 18px;  
+    padding-left: 10px; 
+    display: inline-block;   
+}
+.text {
+    padding-bottom: 96px;
+}
+.grey {
+    background: #1e272e;
+    padding: 48px;
+}
+.cntr i {
+    font-size: 40px;
+    color: #ef9632;
+    margin-right: 15px;
+    display: inline-block;
+}
+.footer h3 {
+    font-size: 20px;
+    color: black;
+    font-family: poppins-black;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.footer p {
+    margin: 8px 0px;
+    font-size: 14px;
+    color: rgb(65, 61, 61);
+    font-family: poppins-black;
+    letter-spacing: 1px;
+}
+.footer a {
+    text-decoration: none !important;
+    color: rgb(65, 61, 61) !important;
+}
+.footer a:hover {
+    text-decoration: none !important;
+    color: rgb(65, 61, 61) !important;
+    opacity: .8;
+}
+.footer i {
+    color: black;
+    font-size: 16px;
+}
+.footer input {
+    outline: none;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 16px;
+    width: 85%;
+    background: none;
+    letter-spacing: 1px;
+    font-family: poppins-black;
+    border: 1px solid #777 !important;
+    margin-top: 20px;
+    border-radius: 4px;
+    
+}
+.cntr span {
+    font-family: agentred;
+    font-size: 50px;
+    color: #ef9632;
+}
+.rights{
+    margin-bottom: 15px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #343a40;
+    text-align: center !important;
+    margin: 0px;
+    padding: 50px 0px;
+    line-height: 1.9;
+    font-family: 'Open Sans', sans-serif;
+}
+.rights span {
+    color: #ef9632;
+    font-family: Aleo, serif;
+    font-weight: 700;
+}
+.width {
+    max-width: 750px;
+    margin: auto;
+}
+label {
+    color: white;
+}
+.camp {
+    background: url(images/airstream.jpg) no-repeat center fixed;
+    padding: 80px !important;
+}
+.cntr h1 {
+    font-family: waves;
+    color: rgb(48, 137, 179);
+    font-size: 50px;
+    margin: 0px;
+}
+.blog h3 {
+    font-family: Aleo;
+    font-size: 35px;
+    color: #ef9632;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+.blog h6 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #73736f;
+    margin: 0px;
+    padding: 20px 0px;
+    font-family: Aleo;
+}
+.blog p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}

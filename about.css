@@ -1,0 +1,84 @@
+@font-face {
+    font-family: daisy;
+    src: url(fonts/paper_daisy/paperdaisy-demo.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(fonts/poppins/Poppins-Medium.otf);
+}
+.bgimg2 {
+    background-image: url(images/camping-282A5498.jpg);
+}
+.heading {
+    padding: 30px;
+    text-align: center;
+}
+.heading h3 {
+    padding: 30px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading p {
+    padding: 20px 0px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.parallax {
+    background: url(images/airstream.jpg) no-repeat center fixed;
+    padding: 80px !important;
+}
+.fonticon {
+    background-color: rgb(187, 137, 128);
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    text-align: center;
+}
+.fonticon i {
+    padding: 16px;
+    font-size: 30px;
+    text-align: center;
+}
+.parallax h3 {
+    color: white;
+    font-family: poppins;
+}
+.rights{
+    margin-bottom: 15px !important;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #343a40;
+    text-align: center !important;
+    margin: 0px;
+    padding: 50px 0px;
+    line-height: 1.9;
+    font-family: 'Open Sans', sans-serif;
+}
+.rights span {
+    color: #ef9632;
+    font-family: Aleo, serif;
+    font-weight: 700;
+}
+.navbar-default{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar li a:hover {
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent !important;
+}
+.menu a:hover, .menu a:active {
+    color: #ef9632 !important;
+    background-color: transparent !important;
+}
+.dropdown-menu>li>a {
+    color: black !important;
+} 
+.navbar-default .navbar-nav>.open>a {
+    background-color: transparent !important;
+    color: #ef9632 !important;
+}
